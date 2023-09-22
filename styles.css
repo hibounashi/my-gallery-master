@@ -10,7 +10,6 @@ body{
     align-items: center;
     width: 100vw;
     height: auto;
-    background-color: black;
     overflow-x: hidden;
 }
 .info{
@@ -29,10 +28,10 @@ body{
     margin: 20px 0px;
 }
 .info-user img{
-
-    width: 100px;
-    height: 100px;
+    aspect-ratio: 1/1;
+    width: 30%;
     border-radius: 16px;
+    margin-bottom: 10px;
 }
 .username{
     color: #4E5150;
@@ -41,9 +40,10 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 10px;
 }
 .place{
-    color: #ee6a6a8d;
+    color: #A9A9A9;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -52,7 +52,7 @@ body{
 }
 .info-account{
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -67,6 +67,14 @@ body{
     padding: 1rem;
     margin: 10px;
 }
+.number{
+    color: #4E5150;
+    font-family: Montserrat ,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 .text{
     color: var(--gray-4, #BDBDBD);
     text-align: center;
@@ -80,24 +88,16 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    background-color: rgba(137, 43, 226, 0.525);
     gap: 25px;
     width: 70%;
     height: auto;
     overflow: hidden;
     margin: 70px 0;
 }
-.posts div {
-    
-}
 .posts img{
-    
     border-radius: 12px;
-
-
 }
 .p1{
-    background-color: red;
     position: relative;
     aspect-ratio: 1/1;
 }
@@ -109,30 +109,57 @@ body{
     height: inherit;
 }
 .p2{
-    background-color: blue;
+    position: relative;
     grid-column: 2 /4;
 }
+.p2 img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: inherit;
+}
 .p3{
-    background-color: aqua;
+    position: relative;
     grid-row: 2 / 3;
     grid-column: 1 / 3;
     aspect-ratio: 2/1;
 }
+.p3 img{
+    position: absolute;
+    width: 100%;
+    height: -webkit-fill-available;
+
+}
 .p4{
-    background-color: green;
+    position: relative;
     grid-row: 2 / 4;
     grid-column: 3 / 4;
 }
+.p4 img{
+    position: absolute;
+    width: 100%;
+    height: -webkit-fill-available;
+}
 .p5{
-    background-color: yellow;
+    position: relative;
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     aspect-ratio: 1/1;
 }
+.p5 img{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+}
 .p6{
-    background-color: rgb(118, 198, 98);
+    position: relative;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
+}
+.p6 img{
+    position: absolute;
+    width: 100%;
+    height: inherit;
 }
 
 footer{
@@ -144,7 +171,6 @@ footer{
     padding: 20px;
 }
 footer div{
-    
     color: #BDBDBD;
     text-align: center;
     font-family: Montserrat, sans-serif;
