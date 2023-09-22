@@ -39,7 +39,7 @@
 ![screenshot](assets/results.png)
 
 this is a web page created by ME using pure HTML and CSS to visualise a social media profile.
-if you want to see my demo you can find it all above the page, by creating this page i face many challenges in code like understunding how to use grid , and moreover in the psycho side i knew how the consitensy is a key like they say.
+if you want to see my demo you can find it all above the page, by creating this page i face many challenges in code like understunding how to use grid , and moreover in the psycho side where i knew how much the consitensy is a key like they say. at the end i discover a new way to host a static web site by using google drive and this will make it 4 ways to host a static website for free.
 
 ### Built With
 
