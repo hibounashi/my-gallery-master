@@ -11,12 +11,15 @@ body{
     width: 100vw;
     height: auto;
     background-color: black;
+    overflow-x: hidden;
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-self: center;
     align-items: center;
+    margin-top: 50px;
+    width: 40%;
     
 }
 .info-user{
@@ -51,6 +54,7 @@ body{
     display: flex;
     justify-self: center;
     align-items: center;
+    width: 100%;
 }
 .box{
     display: flex;
@@ -59,7 +63,8 @@ body{
     align-items: center;
     border-radius: 12px;
     background: #E5E5E5;
-    padding: 15px 30px;
+    width: 20%;
+    padding: 1rem;
     margin: 10px;
 }
 .text{
@@ -76,10 +81,11 @@ body{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     background-color: rgba(137, 43, 226, 0.525);
-    gap: 10px;
+    gap: 25px;
     width: 70%;
     height: auto;
     overflow: hidden;
+    margin: 70px 0;
 }
 .posts div {
     
