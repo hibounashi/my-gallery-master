@@ -54,7 +54,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    
 }
 .box{
     display: flex;
@@ -182,4 +182,12 @@ footer div{
 footer div a{
     text-decoration: none; /* Remove underline */
     color: inherit;
+}
+@media screen and (max-width: 800px) {
+    .posts{
+        width: 90%;
+    }
+    .info{
+        width: 100%;
+    }
 }
